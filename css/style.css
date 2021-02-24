@@ -24,6 +24,14 @@ h1 {
   left: 2rem;
 }
 
+.otherheader{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  left: 2rem;
+}
+
 .navbar {
   background:#fed3be;
   border: 2px solid;
@@ -40,34 +48,30 @@ h1 {
   background:#BB8998;
 }
 
-o {
-  font-family: 'Montserrat', sans-serif;
-}
-
 img.home {
   max-width: 500px;
   float: left;
   padding: 2rem;
 }
 
-img.contact {
+img.general {
   padding: 2rem;
-}
-
-.test {
-  position: relative;
-  top: 2000px;
 }
 
 p{
   font-size: 2rem;
   position: relative;
   left: 2rem;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p.pseudo::first-letter {
-  color: #e1bb47;
+  color: #3a5683;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+p.pseudo{
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -77,6 +81,7 @@ li{
   left: 2rem;
 }
 
-/* li:nth-child(2) {
-  padding: 2rem;
-} */
+.test {
+  position: relative;
+  top: 2000px;
+}
